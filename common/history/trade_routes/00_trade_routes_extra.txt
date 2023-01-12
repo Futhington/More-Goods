@@ -1,0 +1,111 @@
+﻿TRADE_ROUTES = {
+	# Nitrates to European powers
+	c:GBR = {
+		create_trade_route = {
+			goods = nitrate
+			level = 10
+			direction = import
+			target = c:PEU.market
+		}
+		create_trade_route = {
+			goods = nitrate
+			level = 10
+			direction = import
+			target = c:BOL.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 5
+			direction = export
+			target = c:BOL.market
+		}
+		create_trade_route = {
+			goods = tar
+			level = 8
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = tar
+			level = 8
+			direction = import
+			target = c:NOR.market
+		}
+		create_trade_route = {
+			goods = tar
+			level = 10
+			direction = import
+			target = c:RUS.market
+		}
+		create_trade_route = {
+			goods = tar
+			level = 4
+			direction = import
+			target = c:FIN.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 5
+			direction = export
+			target = c:PEU.market
+		}
+	}
+	c:FRA = {
+		create_trade_route = {
+			goods = nitrate
+			level = 10
+			direction = import
+			target = c:BOL.market
+		}
+		create_trade_route = {
+			goods = nitrate
+			level = 10
+			direction = import
+			target = c:PEU.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 5
+			direction = export
+			target = c:BOL.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 5
+			direction = export
+			target = c:PEU.market
+		}
+		create_trade_route = {
+			goods = tar
+			level = 8
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = tar
+			level = 8
+			direction = import
+			target = c:NOR.market
+		}
+	}
+	c:PRU = {
+		create_trade_route = {
+			goods = nitrate
+			level = 5
+			direction = import
+			target = c:BOL.market
+		}
+		create_trade_route = {
+			goods = nitrate
+			level = 5
+			direction = import
+			target = c:PEU.market
+		}
+		create_trade_route = {
+			goods = engines
+			level = 3
+			direction = import
+			target = c:GBR.market
+		}
+	}
+}

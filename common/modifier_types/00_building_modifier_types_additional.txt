@@ -1,0 +1,378 @@
+﻿building_output_clay_add = {
+	good = yes
+	percent = no
+}
+
+building_input_clay_add = {
+	good = no
+	percent = no
+}
+
+building_input_clay_mult = {
+	good = yes
+	percent = yes
+}
+
+building_clay_mine_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_clay_mult = {
+	good = yes
+	percent = yes
+}
+##
+building_output_limestone_add = {
+	good = yes
+	percent = no
+}
+
+
+building_input_limestone_add = {
+	good = no
+	percent = no
+}
+
+building_input_limestone_mult = {
+	good = yes
+	percent = yes
+}
+
+building_limestone_mine_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_limestone_mult = {
+	good = yes
+	percent = yes
+}
+##
+building_output_bricks_add = {
+	good = yes
+	percent = no
+}
+
+building_input_bricks_add = {
+	good = no
+	percent = no
+}
+
+building_input_bricks_mult = {
+	good = yes
+	percent = yes
+}
+
+building_bricks_mine_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_bricks_mult = {
+	good = yes
+	percent = yes
+}
+##
+building_output_cement_add = {
+	good = yes
+	percent = no
+}
+
+building_input_cement_add = {
+	good = no
+	percent = no
+}
+
+building_input_cement_mult = {
+	good = yes
+	percent = yes
+}
+
+building_cement_factory_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_cement_mult = {
+	good = yes
+	percent = yes
+}
+##
+building_output_raw_coal_add = {
+	good = yes
+	percent = no
+}
+
+building_input_raw_coal_add = {
+	good = no
+	percent = no
+}
+
+building_input_raw_coal_mult = {
+	good = yes
+	percent = yes
+}
+
+building_raw_coal_factory_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_raw_coal_mult = {
+	good = yes
+	percent = yes
+}
+##
+building_output_tar_add = {
+	good = yes
+	percent = no
+}
+
+building_input_tar_add = {
+	good = no
+	percent = no
+}
+
+building_input_tar_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_tar_mult = {
+	good = yes
+	percent = yes
+}
+
+building_tar_kiln_throughput_mult = {
+	good = yes
+	percent = yes
+}
+##
+building_output_gas_add = {
+	good = yes
+	percent = no
+}
+
+building_input_gas_add = {
+	good = no
+	percent = no
+}
+
+building_input_gas_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_gas_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_coal_mult = {
+	good = yes
+	percent = yes
+}
+##
+
+building_output_copper_add = {
+	good = yes
+	percent = no
+}
+
+building_input_copper_add = {
+	good = no
+	percent = no
+}
+
+building_input_copper_mult = {
+	good = yes
+	percent = yes
+}
+
+building_copper_mine_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_copper_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_copper_ore_add = {
+	good = yes
+	percent = no
+}
+
+building_input_copper_ore_add = {
+	good = no
+	percent = no
+}
+
+building_output_iron_ore_add = {
+	good = yes
+	percent = no
+}
+
+building_input_iron_ore_add = {
+	good = no
+	percent = no
+}
+
+##
+
+building_output_alkali_add = {
+	good = yes
+	percent = no
+}
+
+building_input_alkali_add = {
+	good = no
+	percent = no
+}
+
+building_output_hcl_add = {
+	good = yes
+	percent = no
+}
+
+building_output_hcl_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_hcl_add = {
+	good = no
+	percent = no
+}
+
+building_output_chlorine_add = {
+	good = yes
+	percent = no
+}
+
+building_input_chlorine_add = {
+	good = no
+	percent = no
+}
+
+building_output_sulphuric_acid_add = {
+	good = yes
+	percent = no
+}
+
+building_output_sulphuric_acid_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_sulphuric_acid_add = {
+	good = no
+	percent = no
+}
+
+building_output_ammonia_add = {
+	good = yes
+	percent = no
+}
+
+building_output_ammonia_mult = {
+	good = yes
+	percent = no
+}
+
+building_input_ammonia_add = {
+	good = no
+	percent = no
+}
+
+building_output_salt_add = {
+	good = yes
+	percent = no
+}
+
+building_input_salt_add = {
+	good = no
+	percent = no
+}
+
+building_output_nitrate_add = {
+	good = yes
+	percent = no
+}
+
+building_input_nitrate_add = {
+	good = no
+	percent = no
+}
+
+building_output_detergent_add = {
+	good = yes
+	percent = no
+}
+
+building_input_detergent_add = {
+	good = no
+	percent = no
+}
+
+building_output_pyrolusite_add = {
+	good = yes
+	percent = no
+}
+
+building_input_pyrolusite_add = {
+	good = no
+	percent = no
+}
+
+building_output_manure_add = {
+	good = yes
+	percent = no
+}
+
+building_input_manure_add = {
+	good = no
+	percent = no
+}
+
+building_output_low_explosives_add = {
+	good = yes
+	percent = no
+}
+
+building_input_low_explosives_add = {
+	good = no
+	percent = no
+}
+
+building_output_soap_add = {
+	good = yes
+	percent = no
+}
+
+building_input_soap_add = {
+	good = no
+	percent = no
+}
+
+building_output_glycerol_add = {
+	good = yes
+	percent = no
+}
+
+building_input_glycerol_add = {
+	good = no
+	percent = no
+}
+
+building_output_fat_add = {
+	good = yes
+	percent = no
+}
+
+building_input_fat_add = {
+	good = no
+	percent = no
+}

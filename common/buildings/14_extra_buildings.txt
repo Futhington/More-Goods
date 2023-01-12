@@ -1,0 +1,314 @@
+﻿building_clay_mine = {
+	building_group = bg_clay_mining
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_low
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_clay_mine
+		pmg_steam_automation_building_clay_mine
+		pmg_train_automation_building_clay_mine
+		pmg_ownership_capital_building_clay_mine
+	}
+}
+ 
+building_limestone_mine = {
+	building_group = bg_limestone_mining
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_low
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_limestone_mine
+		pmg_explosives_building_limestone
+		pmg_steam_automation_building_limestone_mine
+		pmg_train_automation_building_limestone_mine
+		pmg_ownership_capital_building_limestone_mine
+	}
+}
+
+building_copper_mine = {
+	building_group = bg_copper_mining
+	texture = "gfx/interface/icons/building_icons/copper_mine.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_copper_mine
+		pmg_explosives_building_copper_mine
+		pmg_steam_automation_building_copper_mine
+		pmg_train_automation_building_copper_mine
+		pmg_ownership_capital_building_copper_mine
+	}
+}
+
+building_copper_smelter = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/copper_smelter.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_high
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_smelting_copper_smelter
+		pmg_ownership_capital_building_copper_smelter
+	}
+}
+
+building_iron_smelter = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/copper_smelter.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_high
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_smelting_iron_smelter
+		pmg_ownership_capital_building_copper_smelter
+	}
+}
+
+building_cement_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	
+	production_method_groups = {
+		pmg_cement_mixing_process
+		pmg_automation_building_cement_factory
+		pmg_ownership_capital_building_cement_factory
+	}
+	
+	required_construction = construction_cost_medium
+}
+
+building_clay_kilns = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	
+	production_method_groups = {
+		pmg_brick_firing
+		pmg_luxury_building_glassworks
+		pmg_automation_building_tooling_workshops
+		pmg_ownership_capital_building_tooling_workshops
+	}
+	
+	required_construction = construction_cost_medium
+}
+
+building_coking_plant = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	
+	production_method_groups = {
+		pmg_coking
+		pmg_coking_byproduct
+		pmg_automation_building_coking_plant
+		pmg_ownership_capital_building_coking_plant
+	}
+	
+	required_construction = construction_cost_low
+}
+
+building_alkali_works = {
+	building_group = bg_chemical_industry
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+
+	
+	production_method_groups = {
+		pmg_alkali_manufacture
+		pmg_chlorine_manufacture
+		pmg_ownership_capital_building_alkali_works
+	}
+	
+	required_construction = construction_cost_low
+}
+
+building_salt_mine = {
+	building_group = bg_salt_mining
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_salt_mine
+		pmg_explosives_building_salt_mine
+		pmg_steam_automation_building_salt_mine
+		pmg_train_automation_building_salt_mine
+		pmg_ownership_capital_building_salt_mine
+	}
+}
+
+building_salt_coast = {
+	building_group = bg_salt_coast
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_low
+
+	production_method_groups = {
+		pmg_salt_collection
+	}
+	can_build = {
+		error_check = {
+			severity = fail
+			is_sea_adjacent = yes
+		}
+	}
+}
+
+building_tar_kiln = {
+	building_group = bg_pine_tar
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_low
+
+	production_method_groups = {
+		pmg_pine_tar
+	}
+}
+
+building_natron_mine = {
+	building_group = bg_natron_mining
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_low
+
+	production_method_groups = {
+		pmg_mining_equipment_building_natron_mine
+		pmg_steam_automation_building_natron_mine
+		pmg_train_automation_building_natron_mine
+		pmg_ownership_capital_building_natron_mine
+	}
+}
+
+building_nitrate_mine = {
+	building_group = bg_nitrate_mining
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+	required_construction = construction_cost_low
+	ai_value = 2000 # AI really needs to build these
+	production_method_groups = {
+		pmg_mining_equipment_building_nitrate_mine
+		pmg_steam_automation_building_nitrate_mine
+		pmg_train_automation_building_nitrate_mine
+		pmg_ownership_capital_building_nitrate_mine
+	}
+}
+
+building_acid_plant = {
+	building_group = bg_chemical_industry
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+
+	
+	production_method_groups = {
+		pmg_sulphuric_acid_manufacture
+		pmg_hydrochloric_acid_manufacture
+		pmg_automation_building_chemical_industry
+		pmg_ownership_capital_building_chemical_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+building_detergent_factory = {
+	building_group = bg_chemical_industry
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+
+	
+	production_method_groups = {
+		pmg_bleach_manufacture
+		pmg_automation_building_chemical_industry
+		pmg_ownership_capital_building_chemical_industry
+	}
+	
+	required_construction = construction_cost_very_high
+}
+
+building_explosives_factory = {
+	building_group = bg_chemical_industry
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+
+	
+	production_method_groups = {
+		pmg_low_explosives
+		pmg_high_explosives
+		pmg_ownership_capital_building_chemical_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+building_soap_factory = {
+	building_group = bg_chemical_industry
+	texture = "gfx/interface/icons/building_icons/WIP.dds"
+	
+	levels_per_mesh = 5
+
+	
+	production_method_groups = {
+		pmg_soap_manufacture
+		pmg_automation_building_chemical_industry
+		pmg_ownership_capital_building_chemical_industry
+	}
+	
+	required_construction = construction_cost_medium
+}
